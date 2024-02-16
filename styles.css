@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
 * {
 	margin: 0;
 	padding: 0;
@@ -7,12 +10,21 @@ body {
 	background-color: hsl(0, 0%, 8%);
 	color: white;
 	font-size: 1.1rem;
+	font-family: 'Inter', sans-serif;
 }
 
 main {
-	width: 40%;
-	margin: auto;
+	width: 300px;
+	margin: 40px auto;
+	border-radius: 10px;
+	padding: 20px 40px;
+	background-color: hsl(0, 0%, 12%);
+	/* display: flex; */
+	display: grid;
+	justify-items: center;
+	justify-content: center;
 }
+
 
 .attribution {
 	font-size: 11px;
