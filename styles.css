@@ -69,18 +69,22 @@ h2 {
 	color: white;
 }
 
-.link-handles a li {
+.link-handles li a {
 	font-weight: bolder;
 	text-decoration: none;
 	font-size: 1rem;
 	transition: ease-in-out;
 }
 
-.link-handles a li:hover {
-	color: hsl(0, 0%, 20%);
+.link-handles li:hover {
 	background-color: hsl(75, 94%, 57%);
 	text-decoration: none;
+	cursor: pointer;
 	transition: background-color 0.5s;
+}
+
+.link-handles a:hover {
+	color: hsl(0, 0%, 20%);
 }
 
 .attribution {
@@ -93,7 +97,7 @@ h2 {
 	text-decoration: none;
 	color: hsl(75, 94%, 57%);
 	border-radius: 2px;
-	padding: 0 5px;
+	padding: 0 3px;
 	letter-spacing: 0.5px;
 }
 
